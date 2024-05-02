@@ -1,0 +1,30 @@
+.mainbox {
+
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid #80808063;
+    box-shadow: 2px 10px 10px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading-box {
+    background-color: #003D32;
+    color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.text-box {
+
+    color: rgb(219, 214, 214) !important;
+    font-size: 16px !important;
+    margin-top: 40px !important;
+    border-radius: 5px !important;
+
+}
