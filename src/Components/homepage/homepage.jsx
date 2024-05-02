@@ -13,7 +13,7 @@ const Banner = () => {
               
             }}
           >
-            <img src={img} alt="Bannerimage"  style={{width:"98vw"}} />
+            <img src={img} alt="Bannerimage"  style={{width:"100%"}} />
           </Box>
         </Grid>
       </Grid>

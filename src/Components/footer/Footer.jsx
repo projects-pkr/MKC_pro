@@ -15,7 +15,7 @@ export default function Footer() {
     <>
      <Box sx={{backgroundColor
         :"#DFDDDD"}}>
-            <Box sx={{padding:"50px 40px 0px 40px"}}>
+            <Box sx={{padding:"50px 40px 0px 40px",marginTop:"80px"}}>
         <Grid container spacing={0}  >
 
             

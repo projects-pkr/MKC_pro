@@ -42,9 +42,7 @@ export default function our_performer() {
   };
   return (
     <>
-      <Container sx={{ backgroundColor: "#F3F3F3",
-      
-      width:"100%",position:"relative" }} >
+      <Box sx={{ backgroundColor: "#F3F3F3",position:"relative",height:'130vh' }} >
         <Box sx={{ paddingTop: "20px" }}>
           <Typography variant="h2" style={{
             fontSize: "36px",
@@ -57,7 +55,7 @@ export default function our_performer() {
           <Typography variant="h5" style={{ fontSize: "14px", color: "#646878", textAlign: "center", fontWeight: "200" }}>Get to know the faces behind the scrnes and learn about the values that drived us </Typography>
         </Box>
         {/* -------------------------------------------slider box------------------------------------- */}
-        <Box sx={{ marginTop: "40px" }}>
+        <Box sx={{ marginTop: "40px",overflow:"hidden"}}>
           <Slider {...settings} >
 
             {/* ----------slider page-1 -------------- */}
@@ -199,7 +197,7 @@ export default function our_performer() {
 
           </Slider>
         </Box>
-      </Container>
+      </Box>
     </>
 
   );

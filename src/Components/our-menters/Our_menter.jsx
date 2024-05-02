@@ -3,13 +3,15 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"
-import { Box, Container, Typography } from "@mui/material";
+import { Box, Container, Hidden, Typography } from "@mui/material";
 
 
 
 
 function Our_menters() {
   const settings = {
+
+    
     dots:true,
     className: "center",
     infinite: true,
@@ -34,15 +36,11 @@ function Our_menters() {
     swipeToSlide: true,
     autoplay: true,
     autoplaySpeed: 3000,
-    afterChange: function (index) {
-      console.log(
-        `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
-      );
-    }
+    
   };
   return (
     <>
-      <Container sx={{ backgroundColor: "#F3F3F3",height:"70vh",width:"100%",position:"relative", marginTop:{xl:'0px',md:"20px",xs:"120px"}}} >
+      <Box sx={{ backgroundColor: "#F3F3F3",height:"70vh",position:"relative", marginTop:{xl:'0px',md:"20px",xs:"120px"},Width:"100vw"}} >
         <Box sx={{ paddingTop: "20px" }}>
           <Typography variant="h2" style={{
             fontSize: "36px",
@@ -55,8 +53,8 @@ function Our_menters() {
           <Typography variant="h5" style={{ fontSize: "14px", color: "#646878", textAlign: "center", fontWeight: "200" }}>Get to know the faces behind the scrnes and learn about the values that drived us </Typography>
         </Box>
         {/* -------------------------------------------slider box------------------------------------- */}
-        <Box sx={{ marginTop: "40px" }}>
-          <Slider {...settings} >
+        <Box sx={{ marginTop: "40px",overflow:'Hidden'}}>
+          <Slider {...settings}>
 
             {/* ----------slider page-1 -------------- */}
             <Box>
@@ -153,12 +151,9 @@ function Our_menters() {
 
               </Box>
             </Box>
-
-
-
           </Slider>
         </Box>
-      </Container>
+      </Box>
     </>
 
   );

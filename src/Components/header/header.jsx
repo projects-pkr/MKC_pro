@@ -7,9 +7,11 @@ const Navbar = () => {
     <>
         
         <Box sx={{marginLeft:"40px",marginTop:"20px"}} >
-            <img src={image} alt="navbar header"style={{height:"100%",width:"40vw"}} />
+          <Box sx={{borderRight:"2px dashed #C9ECF9",width:"40vw"}}>
+            <img src={image} alt="navbar header"style={{height:"100%",paddingRight:"10px",width:"35vw"}} />
+            </Box>
         </Box>
-        {/* PROJECTS\MKC_pro\public\Images\header\image 2.svg */}
+       
        
              
     </>

@@ -15,6 +15,11 @@ export default function Book_session() {
   
   const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
  const text_box={key:{width:{xl:'400px',xs:"300px"}, height:'40px'}};
+ const [age, setAge] = React.useState('');
+
+ const handleChange = (event) => {
+   setAge(event.target.value);
+ };
   return (
     <>
     
@@ -34,8 +39,12 @@ export default function Book_session() {
           <TextField type="text"placeholder='Mobile Number'className='text-box'sx={text_box.key}/>
           <TextField type="text"placeholder='Email Id'className='text-box'sx={text_box.key}/>
           <FormControl sx={{width:{xl:'400px',xs:"300px"}, marginTop:"40px",height:'40px'}}>
-        <InputLabel >Age</InputLabel>
-        <Select >
+        <InputLabel id="demo-simple-select-label" >Age</InputLabel>
+        <Select labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          value={age}
+          label="Age"
+          onChange={handleChange} >
           <MenuItem value={10}>menuitem-1</MenuItem>
           <MenuItem value={20}>menuitem-2</MenuItem>
           <MenuItem value={30}>menuitem-3</MenuItem>
