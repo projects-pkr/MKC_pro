@@ -2,11 +2,14 @@
 font-size: 20px !important;
 font-weight: 700 !important;
 }
+.list{
+    list-style: none;
+}
 .list-item{
     text-decoration: none;
     color: black;
     font-size: 14px;
-    list-style-type: none;
+    list-style-type: none !important;
 }
 .text{
     font-size: 12px !important;
