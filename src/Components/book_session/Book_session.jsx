@@ -26,13 +26,13 @@ export default function Book_session() {
     <Grid container spacing={0} sx={{ marginTop:{xl:'30px',md:"15px",xs:'5px',height:"100vh",position:'relative'}}} >
         {/*------------- part-one--------------------- */}
         <Grid item xl={6} md={8} xs={12} >
-          <Box className="mainbox" sx={{marginLeft:{xl:'50px',md:"20px",sx:'5px'},
+          <Box className="mainbox" sx={{marginLeft:{xl:'50px',md:"20px",xs:'5px'},
         width:{xl:"500px",xs:"400px"},  height:'600px'
         }}><Box className="heading-box" sx={{ width: {xl:"480px",xs:"400px"}}}>
         <Typography variant="h2" style={{fontSize:"20px",fontWeight:"400"}}>Book your free session</Typography>
     <Typography  >Lorem ipsum, dolor sit amet consectetur</Typography>
      </Box>
-        <Box  sx={{marginLeft:"40px"}} >
+        <Box  sx={{marginLeft:"50px"}} >
             
           <TextField type="text"placeholder='Full Name'className='text-box' sx={text_box.key}/>
           <TextField type="text"placeholder='Father Name'className='text-box'sx={text_box.key}/>
