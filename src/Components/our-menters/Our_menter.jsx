@@ -53,7 +53,7 @@ function Our_menters() {
           <Typography variant="h5" style={{ fontSize: "14px", color: "#646878", textAlign: "center", fontWeight: "200" }}>Get to know the faces behind the scrnes and learn about the values that drived us </Typography>
         </Box>
         {/* -------------------------------------------slider box------------------------------------- */}
-        <Box sx={{ marginTop: "40px",overflow:'Hidden'}}>
+        <Box sx={{ marginTop: "40px",overflow:'Hidden',height:"60vh"}}>
           <Slider {...settings}>
 
             {/* ----------slider page-1 -------------- */}
