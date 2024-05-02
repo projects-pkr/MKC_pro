@@ -51,7 +51,7 @@ export default function Book_session() {
         </Select>
       </FormControl>
       <Typography style={{color:"grey",marginTop:"20px"}}>Why you want to join NDA?</Typography>
-     <Box sx={{display:"flex",alignItems:"center"}}><Checkbox {...label} defaultChecked /><Typography>Zoom Call</Typography></Box> 
+     <Box sx={{display:"flex",alignItems:"center"}}><Checkbox {...label} defaultChecked style={{color:"green"}} /><Typography>Zoom Call</Typography></Box> 
       
         </Box>
         <Button sx={{ width:{xl:"400px",xs:"300px"},backgroundColor:"#003D32",color:"white" ,'&:hover':{color:"white",backgroundColor:'green'}}}>Submit</Button>
