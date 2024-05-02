@@ -2,11 +2,7 @@ import React from 'react'
 import { Grid, Box, Typography, Button } from '@mui/material'
 export default function Signup() {
   return (
-    <>
-
-
-
- 
+    <> 
       <Grid container sx={{ backgroundColor: "#003D32", justifyContent: "center",marginTop:"80px"}}>
         <Box sx={{ maxWidth: "650px", color: "white", textAlign: "center", padding: "20px" }}>
           <Typography sx={{ fontSize: "30px" }}>If you interest our course and know our latest news Please subscribe our newsletter</Typography>
