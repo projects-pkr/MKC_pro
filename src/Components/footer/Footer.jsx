@@ -35,28 +35,28 @@ export default function Footer() {
             {/* grid-2*/}
             <Grid item xl={2} md={6} xs={12}><Box><Typography variant="h4"className='heading'>About</Typography>
                 <ul>
-                    <li><a href="#" className='list-item'>Menu</a></li>
-                    <li><a href="#" className='list-item'>Features</a></li>
-                    <li><a href="#" className='list-item'>News & Bloges</a></li>
-                    <li><a href="#" className='list-item'>Help & Supports</a></li>
+                    <li className='list'><a href="#" className='list-item'>Menu</a></li>
+                    <li className='list'><a href="#" className='list-item'>Features</a></li>
+                    <li className='list'><a href="#" className='list-item'>News & Bloges</a></li>
+                    <li className='list'><a href="#" className='list-item'>Help & Supports</a></li>
                 </ul></Box></Grid>
              {/* grid-3 */}
             <Grid item xl={3} md={6} xs={12}><Box>
                 <Typography variant="h4" className='heading'>Company</Typography>
                 <ul>
-                    <li><a href="#" className='list-item'>How we work</a></li>
-                    <li><a href="#" className='list-item'>Terms of service</a></li>
-                    <li><a href="#" className='list-item'>Pricing</a></li>
-                    <li><a href="#" className='list-item'>FAQ</a></li>
+                    <li className='list'><a href="#" className='list-item'>How we work</a></li>
+                    <li className='list'><a href="#" className='list-item'>Terms of service</a></li>
+                    <li className='list'><a href="#" className='list-item'>Pricing</a></li>
+                    <li className='list'><a href="#" className='list-item'>FAQ</a></li>
                 </ul>
                 </Box></Grid> 
             {/* grid-4*/}
             <Grid item xl={3} md={6} xs={12}><Box><Typography variant="h4" className='heading'>Contact Us</Typography>
                 <ul>
-                    <li><a href="#" className='list-item'>Lorem ipsum dolor sit amet consectetur. Lacin ornare quam ut.</a></li>
-                    <li><a href="#" className='list-item'>+1 202-918-2132</a></li>
-                    <li><a href="#" className='list-item'>mkc@mail.com</a></li>
-                    <li><a href="#" className='list-item'>www.mkceducation.com</a></li>
+                    <li className='list'><a href="#" className='list-item'>Lorem ipsum dolor sit amet consectetur. Lacin ornare quam ut.</a></li>
+                    <li className='list'><a href="#" className='list-item'>+1 202-918-2132</a></li>
+                    <li className='list'><a href="#" className='list-item'>mkc@mail.com</a></li>
+                    <li className='list'><a href="#" className='list-item'>www.mkceducation.com</a></li>
                 </ul></Box></Grid>
              
           
